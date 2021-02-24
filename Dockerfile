@@ -19,7 +19,7 @@ RUN /opt/time2backup/time2backup.sh install || true
 
 # install entrypoint
 COPY entrypoint.sh /
-RUN chown -R root:root /entrypoint.sh /opt/time2backup && chmod 755 entrypoint.sh
+RUN chown -R root:root /entrypoint.sh /opt/time2backup && chmod 755 /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
