@@ -3,7 +3,7 @@
 FROM alpine:latest
 
 ENV BRANCH=stable
-ENV VERSION=1.8.7
+ENV VERSION=1.9.0
 
 # 1. Install dependencies
 # 2. Download time2backup
